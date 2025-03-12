@@ -1,0 +1,54 @@
+/* regole reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* / reset */
+
+header {
+  background-color: red;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-header {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: green;
+}
+
+.container-main-first-section {
+  background-color: aqua;
+  min-height: 300px;
+  min-width: 700px;
+}
+
+footer {
+  background-color: blue;
+}
