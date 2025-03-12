@@ -24,6 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
 }
 
 .menu-header {
@@ -47,6 +48,21 @@ main {
   background-color: aqua;
   min-height: 300px;
   min-width: 700px;
+}
+
+.container-main-first-section-principal {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.text-principal {
+  padding-top: 50px;
+}
+
+button,
+.span-text {
+  display: block;
 }
 
 footer {
