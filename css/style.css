@@ -65,6 +65,25 @@ button,
   display: block;
 }
 
+.img-proposta {
+  position: absolute;
+  top: 30px;
+  left: 251px;
+}
+
+/* sezione 2 */
+
+.container-main-first-offerta {
+  max-width: 800px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.piano-fatturazione {
+  display: flex;
+}
+
 footer {
   background-color: blue;
 }
