@@ -14,6 +14,16 @@ ul {
   list-style-type: none;
 }
 
+img {
+  width: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 /* / reset */
 
 .menu-header {
@@ -37,25 +47,26 @@ ul {
   padding-left: 0.5rem;
 }
 
-/*
+.menu-header-right .menu-ul .btn-inizia {
+  background-color: blue;
+  color: white;
+  padding: 0.5rem;
+}
+
 main {
   background-color: green;
 }
 
-.container-main-first-section {
+#jumbo {
   background-color: aqua;
-  min-height: 300px;
-  min-width: 700px;
 }
 
-.container-main-first-section-principal {
-  max-width: 1000px;
-  margin: 0 auto;
-  position: relative;
+.card {
+  flex-wrap: wrap;
 }
 
-.text-principal {
-  padding-top: 50px;
+.text-principal-70 {
+  width: 70%;
 }
 
 button,
@@ -63,13 +74,11 @@ button,
   display: block;
 }
 
-.img-proposta {
-  position: absolute;
-  top: 30px;
-  left: 251px;
+.img-30 {
+  width: 30%;
 }
 
-
+/*
 
 .container-main-first-offerta {
   max-width: 800px;
