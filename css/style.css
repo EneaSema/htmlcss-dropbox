@@ -136,7 +136,29 @@ button,
   padding: 1rem 0;
 }
 
-..type-descrition-bottom * {
+.btn-prova {
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
+  background-color: blue;
+  color: white;
+}
+
+.buy-now {
+  padding-left: 0.5rem;
+}
+
+.separator {
+  background-color: grey;
+  width: 50px;
+  height: 2px;
+  margin: 0.5rem 0;
+}
+
+h5 {
+  padding: 1rem 0;
+}
+
+.type-descrition-bottom * {
   padding: 1rem 0;
 }
 
