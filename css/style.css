@@ -21,7 +21,25 @@ img {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 0.5rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+}
+
+[class*="col"] {
+  padding: 0 1rem;
+}
+
+.col-70 {
+  width: 70%;
+}
+
+.col-30 {
+  width: 30%;
 }
 
 /* / reset */
@@ -59,23 +77,16 @@ main {
 
 #jumbo {
   background-color: aqua;
+  position: relative;
 }
 
 .card {
   flex-wrap: wrap;
 }
 
-.text-principal-70 {
-  width: 70%;
-}
-
 button,
 .span-text {
   display: block;
-}
-
-.img-30 {
-  width: 30%;
 }
 
 /*
