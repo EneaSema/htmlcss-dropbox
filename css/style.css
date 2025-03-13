@@ -76,12 +76,8 @@ main {
 }
 
 #jumbo {
-  background-color: aqua;
+  background-color: #b4d0e6;
   position: relative;
-}
-
-.card {
-  flex-wrap: wrap;
 }
 
 button,
@@ -89,20 +85,25 @@ button,
   display: block;
 }
 
-/*
+.text-descrition {
+  margin: 0px -0.5rem;
+}
 
-.container-main-first-offerta {
-  max-width: 800px;
-  margin: 30px auto;
+#business-plan {
+  background-color: greenyellow;
+  width: 900px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
 
-.piano-fatturazione {
-  display: flex;
+.type-pay button {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-color: black;
 }
-
-*/
 
 footer {
   background-color: blue;
