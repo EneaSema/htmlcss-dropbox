@@ -110,7 +110,7 @@ main {
   background-color: rgb(255, 255, 255);
 }
 
-/* prima sezione */
+/* sezione jumbo */
 
 #jumbo {
   background-color: #b4d0e6;
@@ -148,7 +148,7 @@ button,
   display: block;
 }
 
-/* seconda sezione */
+/* sezione business-plan */
 
 .type-pay button {
   display: inline-block;
@@ -213,11 +213,17 @@ h5 {
   padding: 2rem 0;
 }
 
-/* sezione esegui + operazioni con Dropbox Bunisess */
+/* sezione team */
+
+/*  sezione contact  */
+
+/* sezione more operation */
 
 h3 {
   margin: 1rem 0;
 }
+
+/* sezione people-used */
 
 /* sezione footer */
 
