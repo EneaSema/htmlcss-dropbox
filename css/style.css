@@ -196,7 +196,9 @@ button,
 }
 
 h5 {
-  padding: 1rem 0;
+  text-align: center;
+  border: 1px solid black;
+  margin: 10px 0;
 }
 
 .type-descrition-bottom * {
