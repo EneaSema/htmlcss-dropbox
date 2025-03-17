@@ -8,7 +8,6 @@
 
 a {
   text-decoration: underline;
-  color: white;
 }
 
 ul {
@@ -184,11 +183,14 @@ button,
 
 .type-pay {
   margin: 16px 0;
+  font-size: larger;
+  font-weight: 900;
 }
 
 .type-descrition {
-  border: 1px solid black;
+  border-top: 1px solid black;
   padding: 1rem;
+  font-size: large;
 }
 
 .type-descrition-top * {
@@ -228,9 +230,55 @@ h5 {
 
 /* sezione team */
 
+#team > .container-business-plan > .row {
+  border: 1px solid black;
+}
+
+.team-descrition * {
+  margin: 2rem 0;
+}
+
+.btn-team {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  min-width: 200px;
+  height: 50px;
+  position: relative;
+  top: 50px;
+  left: 200px;
+}
+
 /*  sezione contact  */
 
+.text-contact {
+  margin: 3rem 0;
+}
+
+.text-contact-top {
+  margin: 3rem 0;
+}
+
+h4 {
+  font-weight: 900;
+  font-size: large;
+  margin: 2rem 0;
+}
+
+.btn-contact {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  height: 50px;
+  min-width: 100px;
+}
+
 /* sezione more operation */
+
+h2 {
+  font-size: large;
+  font-weight: bolder;
+  margin: 1rem 0;
+}
 
 h3 {
   margin: 1rem 0;
@@ -241,6 +289,27 @@ h3 {
 /* sezione footer */
 
 footer {
-  background-color: blue;
+  background-color: rgb(0, 0, 0);
   color: white;
+}
+
+footer nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer nav li {
+  margin: 2rem 0;
+}
+
+.card-footer {
+  margin-top: 100px;
+}
+
+.card-footer .separator {
+  margin-top: 5rem;
+}
+
+.select-language {
+  margin: 2rem 0;
 }
